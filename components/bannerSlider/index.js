@@ -1,3 +1,3 @@
 import BannerSlider from "./BannerSlider";
 
-export default BannerSlider 
+module.exports = { BannerSlider };
