@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React, { useState, useEffect } from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 
@@ -30,7 +31,7 @@ const CardSlider = ({ data }) => {
                         return (
                             <div key={index} className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3"  >
                                 <div className='single_card'>
-                                    <img src={data.images[0].src}
+                                    <Image src={data.images[0].src}
                                         alt="Image" style={{ width: "100%", borderRadius: "5px", boxShadow: "0px 0px 5px 1px black" }} />
                                     <div className="card-content">
                                         <h2 style={{ fontSize: "18px", marginTop: "10px", paddingBottom: "10px" }}>{data.title}</h2>
