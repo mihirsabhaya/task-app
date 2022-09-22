@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import React, { useEffect, useState } from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 
@@ -24,7 +23,7 @@ const BannerSlider = (data) => {
                     playlist.map((data, index) => {
                         return (
                             <Carousel.Item key={index} >
-                                <Image
+                                <img
                                     className="d-block w-100"
                                     src={data.images[0].src}
                                     alt="slide"
