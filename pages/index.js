@@ -1,7 +1,7 @@
 import styles from '../styles/Home.module.css'
 import structureJson from '../data'
-import { CardSlider } from '../components/CardSlider'
 import { BannerSlider } from '../components/bannerSlider'
+import { CardSlider } from '../components/cardSlider'
 
 
 export default function Home() {
